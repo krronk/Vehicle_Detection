@@ -5,7 +5,7 @@ from detection.object_detection import detect_object
 
 
 def main():
-    st.title("Object detection with YOLOv4")
+    st.title("Vehicle detection with YOLOv4-Tiny")
     img_array = upload_image_ui()
 
     if isinstance(img_array, np.ndarray):
