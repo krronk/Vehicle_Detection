@@ -4,7 +4,7 @@ import os
 
 def detect_object(frame):
     cfg_path = os.path.abspath('yolov4-tiny.cfg')
-    weights_path = os.path.abspath('yolov4-tiny.conv.29')
+    weights_path = os.path.abspath('yolov4-tiny.weights')
     names_path = os.path.abspath('obj.name')
 
     
